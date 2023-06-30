@@ -1,0 +1,15 @@
+table {
+	border: 1px coral;
+}
+td:hover {
+	background-color: darkblue;
+	color: darkgray;
+}
+tr, th {
+	background-color: darkslategray;
+	color: white;
+}
+tr, td {
+	background-color: forestgreen;
+	color: firebrick;
+}
