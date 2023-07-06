@@ -3,8 +3,8 @@
 	<head>
 		<title>See the World of Roshar!</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="">
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
 		<!-- NAV -->
@@ -148,15 +148,15 @@
 		</section>
 		
 		<!-- RSVP -->
-		<section>
-			<div id="rsvp">
-				<div>
-					<h1>RSVP</h1>
-					<div>
+		<section id="rsvp">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">RSVP</h1>
+					<div class="reservation">
 						<h2><span>Your trip is just a few moments away!</span>
-							<br />Get ready for the adventure of a lifetime!</h2>
-						<p>Please provide us with your information.</p>
-						<div>
+							<br/>Get ready for the adventure of a lifetime!</h2>
+						<p class="rsvp-text">Please provide us with your information.</p>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="req" type="text" value="First Name">
 								<input class="req" type="text" value="Last Name">
@@ -165,7 +165,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
