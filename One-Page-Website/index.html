@@ -3,8 +3,7 @@
 	<head>
 		<title>See the World of Roshar!</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="./css/shared.css">
-		<link rel="stylesheet" href="./css/animations.css">
+		<link rel="stylesheet" href="./css/one_page_css.css">
 	</head>
 	<body>
 		<!-- NAV -->
@@ -140,8 +139,8 @@
 		<!-- END GALLERY -->
 		
 		<!-- VIDEOS -->
-		<section>
-			<div id="promo" class="container">
+		<section id="promo">
+			<div class="container">
 				<div>
 					<h1>Videos</h1>
 					<div class="text-center">
@@ -167,13 +166,18 @@
 								<input class="req" type="text" value="Last Name">
 								<input class="req" type="text" value="Email">
 								<input class="req" type="text" value="Cosmere Cordinates">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
 								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
+							<div class="form-spacer">
+								<h3 id="Terms">Terms and Conditions</h3>
+								<textarea id="Terms_Box" name="Terms and Conditions" rows="4" cols="50" readonly>
+									Rosharian Trips does not take responsibility for any loss of life or limb during your trip.
+									You are responsable for keeping track of Highstorm times and avoiding hostile wild life.
+									No refunds.
+								</textarea>
+							</div>
 						</div>
 					</div>
 				</div>
