@@ -118,3 +118,17 @@ p:hover {
 .img-overlay-container:hover .overlay {
     opacity: 0.6;
 }
+
+/* Tenth Challenge */
+
+.video-overlay-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 700px;
+}
